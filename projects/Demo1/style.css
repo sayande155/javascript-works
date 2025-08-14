@@ -1,0 +1,22 @@
+.loginForm{
+ background-color: rgb(82, 90, 103);
+ color: white;
+ text-align: center;
+ padding : 20px;
+ border : 6px;
+ border-radius: 15px;
+
+}
+
+#heading{
+    background-color: rgb(82, 90, 103);
+    border-radius: 28px;
+    text-align: center;
+    padding: 10px;
+    color: aqua;
+}
+
+#root{
+    background-color : rgb(1, 33, 43);
+    flex: auto;
+}

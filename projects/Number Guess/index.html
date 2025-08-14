@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">Guess The Number</h1>
+    <form class="input">
+        <label  for="number">Guess a Number <br> (Between 1 & 100)</label><br>
+        <input type="text" placeholder="Enter your guess" class="number" id="number"><br>
+        <input type="submit" value="Submit Guess" class="submit" id="submit"><br>
+    </form>
+    <div class="res">
+        <p>Previous Guesses : <span class="guesses"></span></p>
+        <p>Attempts Left : <span class="remaining"></span></p>
+        <p class="lowOrHigh"></p>
+    </div>
+    <footer class="footer">&copy Sayan De 12 July 2025</footer>
+</body>
+<script src="script.js"></script>
+</html>

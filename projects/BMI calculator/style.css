@@ -1,0 +1,106 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  padding: 20px;
+  position: relative;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 30px 10px 10px;
+}
+
+.heading {
+  font-size: 2.5em;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Form */
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Form elements */
+label {
+  color: #ffffff;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 1em;
+  transition: 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px #74ebd5;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  transform: scale(1.03);
+}
+
+/* Result */
+#result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  opacity: 0.9;
+}
